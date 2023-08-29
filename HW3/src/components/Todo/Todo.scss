@@ -1,0 +1,14 @@
+.container {
+
+  &__todo {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__todo-list {
+    border: 2px solid black;
+    padding: 10px;
+    min-width: 200px;
+    min-height: 300px;
+  }
+}
