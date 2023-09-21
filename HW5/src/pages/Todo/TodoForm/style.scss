@@ -1,0 +1,30 @@
+.form {
+  position: relative;
+  border: 3px solid rgb(200, 117, 255);
+  border-radius: 5px;
+  background: rgb(227, 226, 226);
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 0 10px 10px;
+  font-weight: 700;
+  font-size: 18px;
+
+
+  &__label-title {
+    display: flex;
+    gap: 7px;
+
+    &>input {
+      border: 2px solid rgb(200, 117, 255);
+      max-width: 150px;
+    }
+  }
+
+  &__label-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+}

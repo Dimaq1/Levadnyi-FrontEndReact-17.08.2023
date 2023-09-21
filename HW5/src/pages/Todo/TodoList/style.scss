@@ -1,0 +1,10 @@
+li {
+
+  &.completed {
+    background-color: #e14141;
+  }
+
+  &.progress {
+    background-color: #dee12b;
+  }
+}
